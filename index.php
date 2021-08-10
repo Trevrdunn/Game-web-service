@@ -70,7 +70,7 @@ function bondJSON(data){
 	*/
 
 	//identifies the type of data returned
-	$('filmtitle').html(data.title);
+	$('#filmtitle').html(data.title);
 
 	//clears other films
 	$('#films').html('');
