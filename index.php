@@ -72,6 +72,10 @@ function bondJSON(data){
 	//identifies the type of data returned
 	$('filmtitle').html(data.title);
 
+	$.each(data.films,function(i,item){
+		let myFilm = bondTemplate(item);
+		$('<div></div>').html(myFilm).appendTo('#films');
+	});
 
 
 }
@@ -104,6 +108,7 @@ function bondTemplate(film){
 		<a href="box" class="category">Bond Films By International Box Office Totals</a>
 		<h3 id="filmtitle">Title Will Go Here</h3>
 		<div id="films">
+			<!--
 			<div class="film">
 				<b>Film: </b>1<br>
 				<b>Title: </b>Dr. No<br>
@@ -117,6 +122,7 @@ function bondTemplate(film){
 				<b>Box Office: </b>$59,567,035.00<br>
 				<div class="pic"><img src="thumbnails/dr-no.jpg"></div>
 			</div> 
+			-->
 		</div>
 		<div id="output">Results go here</div>
 	</body>
