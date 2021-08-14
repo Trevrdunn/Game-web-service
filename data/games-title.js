@@ -2,14 +2,14 @@
 	"title": "Video Games by Title",
 	
 	"games":[
-			{
+			 {
 				"Title":"Counter Strike Global Offensive",
 				"Genre":"Tactical Shooter",
 				"Company":"Valve",
 				"Year":2012,
 				"Rating":"M",
 				"Image":"counter-strike-global-offensive.jpg"
-			  }
+			  },
 			  
 			  {
 				"Title":"Minecraft",

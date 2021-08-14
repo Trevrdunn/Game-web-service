@@ -13,7 +13,7 @@
 }
 
 	.pic{
-		position:absolute;
+		position:float;
 		right:10px;
 		top:10px;
 }
