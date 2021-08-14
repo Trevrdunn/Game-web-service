@@ -2,6 +2,33 @@
 	"title": "Video Games by Title",
 	
 	"games":[
+			{
+				"Title":"Counter Strike Global Offensive",
+				"Genre":"Tactical Shooter",
+				"Company":"Valve",
+				"Year":2012,
+				"Rating":"M",
+				"Image":"counter-strike-global-offensive.jpg"
+			  }
+			  
+			  {
+				"Title":"Minecraft",
+				"Genre":"Sandbox",
+				"Company":"Mojang",
+				"Year":2011,
+				"Rating":"E10+",
+				"Image":"minecraft.jpg"
+			  },
+
+			  {
+				"Title":"Portal",
+				"Genre":"Puzzle",
+				"Company":"Valve",
+				"Year":2007,
+				"Rating":"T",
+				"Image":"portal.jpg"
+			  },
+
              {
 				"Title":"Sonic The Hedgehog",
 				"Genre":"Platformer",
@@ -18,33 +45,6 @@
 				"Year":1992,
 				"Rating":"E",
 				"Image":"super-mario-kart.jpg"
-			  },
-
-			  {
-				"Title":"Portal",
-				"Genre":"Puzzle",
-				"Company":"Valve",
-				"Year":2007,
-				"Rating":"T",
-				"Image":"portal.jpg"
-			  },
-
-			  {
-				"Title":"Minecraft",
-				"Genre":"Sandbox",
-				"Company":"Mojang",
-				"Year":2011,
-				"Rating":"E10+",
-				"Image":"minecraft.jpg"
-			  },
-
-			  {
-				"Title":"Counter Strike Global Offensive",
-				"Genre":"Tactical Shooter",
-				"Company":"Valve",
-				"Year":2012,
-				"Rating":"M",
-				"Image":"counter-strike-global-offensive.jpg"
 			  }
 	]
 }
