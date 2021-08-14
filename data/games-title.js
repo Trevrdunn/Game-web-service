@@ -29,7 +29,7 @@
 				"Image":"portal.jpg"
 			  },
 
-             {
+              {
 				"Title":"Sonic The Hedgehog",
 				"Genre":"Platformer",
 				"Company":"Sega",
